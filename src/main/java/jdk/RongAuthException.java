@@ -14,5 +14,8 @@ public class RongAuthException extends Exception {
 	public int getErrorCode() {
 		return errorCode;
 	}
-
+	public int getCode(){
+		return errorCode;
+	}
+	
 }
